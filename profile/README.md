@@ -87,9 +87,12 @@
 
 ## ⚙️ 인프라 환경
 
-- **사용자**: 이력서 업로드 및 분석 기능, 이력서 분석 결과 및 PDF 다운 이력서 매칭 될 경우 메일 알림
-- **인사담당자**: HR 성향테스트 및 유저 이력서 매칭 기능
- 
+- **개발 환경**
+<img width="815" height="586" alt="개발환경" src="https://github.com/user-attachments/assets/b412b30b-0c24-4a8d-8782-d1a2c7696f3f" />
+
+- **배포 환경**
+<img width="742" height="655" alt="배포환경" src="https://github.com/user-attachments/assets/380d497d-33de-43a4-a670-4c8b64e33bbd" />
+
 ---
 ## 🏗️ 기술 스택
 
@@ -110,6 +113,7 @@
  
  ## Frontend
 [![Next.js](https://img.shields.io/badge/NextJs-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
  <br/>
  
  ## Backend
@@ -192,7 +196,7 @@ backend
 ### 📍 브랜치 전략
 
 - **main**: 운영 배포용 브랜치  
-- **dev**: 다음 출시 버전을 개발하는 브랜치 (오류 없는 코드만 push)  
+- **develop**: 다음 출시 버전을 개발하는 브랜치 (오류 없는 코드만 push)  
 - **기능 브랜치 규칙**:
 ```ardunio
 main
