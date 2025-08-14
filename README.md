@@ -166,7 +166,7 @@ npm run dev
 ## :open_file_folder: Project Structure
 
 ```markdown
-backend
+MatchingFit_BACKEND
 └── src
     └── main
         └── java
