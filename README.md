@@ -79,10 +79,9 @@
 
 ## 🛠️ 주요 기능
 
-- **보호자**: 반려동물 등록, 진료 예약 및 알림 수신, 진료 내역 확인
-- **의료진**: 진료 예약 현황 열람, 진료 기록 입력, 다음 진료 일정 등록/수정
-- **관리자**: 진료 일정 총괄 관리, 수의사 배정, 공지사항 관리, 통계 확인
-
+- **사용자**: 이력서 업로드 및 분석 기능, 이력서 분석 결과 및 PDF 다운 이력서 매칭 될 경우 메일 알림
+- **인사담당자**: HR 성향테스트 및 유저 이력서 매칭 기능
+ 
 ---
 
 ## 🏗️ 기술 스택
@@ -91,7 +90,7 @@
 |:---|:---|
 | Backend | Spring Boot, JPA, WebSocket |
 | Frontend | Next.js, TypeScript |
-| Database | MySQL, S3 |
+| Database | MySQL |
 | DevOps | Docker, Terraform, AWS (EC2, RDS) |
 | CI/CD | GitHub Actions |
 
@@ -141,7 +140,7 @@
 ```bash
 # 1. 프로젝트 클론
 git clone https://github.com/MatchingFit/MatchingFit_BACKEND.git
-cd AniDoc/backend
+cd MatchingFit_BACKEND
 
 # 2. 환경변수 설정
 cp src/main/resources/application.yml.example src/main/resources/application.yml
@@ -152,7 +151,7 @@ cp src/main/resources/application.yml.example src/main/resources/application.yml
 ```
 ### Frontend (Next.js)
 ```bash
-cd AniDoc/frontend
+cd MatchingFit_FRONTREND
 
 # 의존성 설치
 npm install
@@ -172,15 +171,14 @@ backend
     └── main
         └── java
             └── com
-                └── petner
-                    └── anidoc
+                └── example
+                    └── matcing_fit
                         ├── domain/          # 핵심 도메인 로직
-                        │   ├── chat/        # 채팅 관련
-                        │   ├── notice/      # 알림 관련  
-                        │   ├── statistics/  # 통계 관련
-                        │   ├── user/        # 보호자 관련
-                        │   └── vet/         # 의료진 관련
-                        ├── global/          # 전역 설정 (AWS S3, 보안 등)
+                        │   ├── manager/     # 인사담당자 관련
+                        │   ├── resume/      # 이력서 관련  
+                        │   ├── score/       # 점수 관련
+                        │   └── user/        # 사용자 관련
+                        ├── global/          # 전역 설정 (Ai, Elasticsearch, 보안 등)
                         └── Application.java # 메인 클래스
 ```
 
@@ -195,15 +193,15 @@ backend
 - **기능 브랜치 규칙**:
 ```ardunio
 main
-dev
-chore/{issue-number}
-hotfix/{issue-number}
-feat/{issue-number}
-refactor/{issue-number}
+develop
+chore/브랜치명{issue-number}
+hotfix/브랜치명{issue-number}
+feat/브랜치명{issue-number}
+refactor/브랜치명{issue-number}
 ```
 
 **예시:**  
-`feat/27`
+`31-feat-마이페이지-api-추가`
 
 ---
 
@@ -212,7 +210,7 @@ refactor/{issue-number}
 | 브랜치    | 설명                                |
 |-----------|-------------------------------------|
 | `main`    | 제품 출시용 안정화 브랜치           |
-| `dev` | 통합 개발 브랜치 (기능 병합 후 테스트) |
+| `develop` | 통합 개발 브랜치 (기능 병합 후 테스트) |
 | `feat/*`  | 기능 개발 브랜치 (develop에서 분기)  |
 
 ---
@@ -223,7 +221,7 @@ refactor/{issue-number}
 ```
 
 **예시:**  
-`[Feat] user생성 #10`
+`feat : user생성 #10`
 
 ---
 
