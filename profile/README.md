@@ -1,6 +1,8 @@
-> AI 이력서 평가 및 적성 검사 시스템
+# AI 이력서 평가 및 적성 검사 시스템
 
-**MatchingFit** 은 수강생의 이력서를 AI가 분석하여 역량 기반 정량 평가 및 인사담당자의 성향에 맞는 인재 추천 시스템 입니다.
+**MatchingFit** 은 멋쟁이사자처럼 부트캠프 수강생의 이력서를 AI가 분석하여 역량 기반 정량 평가 및 인사담당자의 성향에 맞는 인재 추천 시스템 입니다.
+
+<br/>
 
 ## 👥 팀원 소개
 
@@ -11,79 +13,42 @@
  | 팀장 | 팀원 | 팀원 | 팀원 |
  | [GitHub](https://github.com/minseoBae) | [GitHub](https://github.com/Kwon-TaeYun) | [GitHub](https://github.com/Kim-ms527) | [GitHub](https://github.com/yoonmallang22) | 
 
+<br/>
+
 ---
+
+<br/>
 
 ## 📸 UI 스크린샷
 
-- 메인 페이지 화면(대시보드)
+- 이력서 분석
 
-  <p align="center">
-    <img width="1251" alt="메인 페이지 화면(대시보드)" src="https://github.com/user-attachments/assets/91f0b9f2-066f-4480-a59b-5b1be62d3311" />
-  </p>
+![이력서분석](https://github.com/user-attachments/assets/4a23b77c-eba5-4958-b3dc-7e44774466e0)
 
+- HR 담당자 성향 테스트
 
-<details>
-  <summary>로그인 & 회원가입 화면</summary>
+![HR담당자성향테스트](https://github.com/user-attachments/assets/c4ba9189-23f6-4dc4-a399-57f06f8b2f9b)
 
-  <div align="center">
-    <img width="600" alt="로그인 화면" src="https://github.com/user-attachments/assets/5b60a733-606d-4e12-a664-6153b12d9379" />
-    <img width="600" alt="회원가입 화면" src="https://github.com/user-attachments/assets/d858f3eb-aea6-4aff-90e8-054cbd997dac" />
-  </div>
-</details>
+- 로그인 & 회원가입
 
-<details>
-  <summary>이력서 분석</summary>
+![로그인_로그아웃](https://github.com/user-attachments/assets/e1a1401e-333f-4865-ac14-b68b8757f237)
 
-  <p align="center">
-    <img width="1251" alt="반려동물 관리 화면" src="https://github.com/user-attachments/assets/48e7c3a8-9979-44cf-9f0e-0ce8938c29bb" />
-    <img width="1251" alt="반려동물 등록 화면" src="https://github.com/user-attachments/assets/0fd11196-6f8c-46f1-bcca-ca0d05d4bf59" />
-  </p>
-</details>
-
-<details>
-  <summary>업무 성향 테스트</summary>
-
-  <p align="center">
-    <img width="1251" alt="진료예약 화면" src="https://github.com/user-attachments/assets/a8fd27da-1181-47c4-9322-48f0fae71b05" />
-  </p>
-</details>
-
-<details>
-  <summary>HR 담당자 성향테스트</summary>
-
-  <p align="center">
-    <img width="1251" alt="진료기록 화면" src="https://github.com/user-attachments/assets/334852e6-6c0c-47cb-b0e8-411580d1b3b0" />
-    <img width="1251" alt="진료기록 조회 화면" src="https://github.com/user-attachments/assets/42b106c1-10d8-462e-a6da-f51889dcce2c" />
-  </p>
-</details>
-
-
-<details>
-  <summary>분석결과 화면</summary>
-
-  <p align="center">
-    <img width="1251" alt="공지사항 화면" src="https://github.com/user-attachments/assets/996c1f2d-5e9e-485c-8a8f-618ac0ef70cf" />
-  </p>
-</details>
-
-<details>
-  <summary>결과 보고서 다운로드</summary>
-
-  <p align="center">
-    <img width="1251" alt="공지사항 화면" src="https://github.com/user-attachments/assets/996c1f2d-5e9e-485c-8a8f-618ac0ef70cf" />
-  </p>
-</details>
-
+<br/>
 
 ---
+
+<br/>
 
 ## 🛠️ 주요 기능
 
 - **사용자**: 이력서 업로드 및 분석 기능, 이력서 분석 결과 및 PDF 다운 이력서 매칭 될 경우 메일 알림
 - **인사담당자**: HR 성향테스트 및 유저 이력서 매칭 기능
- 
+
+<br/>
+
 ---
 
+<br/>
 
 ## ⚙️ 인프라 환경
 
@@ -93,13 +58,18 @@
 - **배포 환경**
 <img width="742" height="655" alt="배포환경" src="https://github.com/user-attachments/assets/380d497d-33de-43a4-a670-4c8b64e33bbd" />
 
+<br/>
+
 ---
+
+<br/>
+
 ## 🏗️ 기술 스택
 
 | 분야 | 기술 |
 |:---|:---|
 | Backend | Spring Boot, JPA, OPENAI, ELASTICSEARCH, KIBANA, PYTHON|
-| Frontend | Next.js, TypeScript |
+| Frontend | React, TypeScript, Zustand |
 | Database | PostgreSQL, S3 |
 | DevOps | Docker, NGINX, REDIS |
 | CI/CD | GitHub Actions |
@@ -123,7 +93,6 @@
 [![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat&logo=kibana&logoColor=white)](https://www.elastic.co/kibana)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
-
  <br/>
 
  ## Infra
@@ -138,9 +107,11 @@
 [![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)](https://www.notion.so/)
 [![Slack](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white)](https://slack.com/)
 
- <br/>
+<br/>
 
- ---
+---
+
+<br/>
 
 ## 🚀 Getting Started
 
@@ -157,15 +128,15 @@ cp src/main/resources/application.yml.example src/main/resources/application.yml
 # 3. 서버 실행
 ./gradlew bootRun
 ```
-### Frontend (Next.js)
+### Frontend (React)
 ```bash
 cd MatchingFit_FRONTREND
 
 # 의존성 설치
-npm install
+pnpm install
 
 # 개발 서버 실행
-npm run dev
+pnpm run dev
 
 ```
 ---
@@ -190,7 +161,11 @@ backend
                         └── Application.java # 메인 클래스
 ```
 
+<br/>
+
 ---
+
+<br/>
 
 ## 🧱 Git 컨벤션
 
