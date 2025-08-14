@@ -32,7 +32,7 @@
 </details>
 
 <details>
-  <summary>반려동물 관리 & 반려동물 등록 화면</summary>
+  <summary>이력서 분석</summary>
 
   <p align="center">
     <img width="1251" alt="반려동물 관리 화면" src="https://github.com/user-attachments/assets/48e7c3a8-9979-44cf-9f0e-0ce8938c29bb" />
@@ -41,7 +41,7 @@
 </details>
 
 <details>
-  <summary>진료예약 화면</summary>
+  <summary>업무 성향 테스트</summary>
 
   <p align="center">
     <img width="1251" alt="진료예약 화면" src="https://github.com/user-attachments/assets/a8fd27da-1181-47c4-9322-48f0fae71b05" />
@@ -49,7 +49,7 @@
 </details>
 
 <details>
-  <summary>진료기록 & 진료기록 조회 화면</summary>
+  <summary>HR 담당자 성향테스트</summary>
 
   <p align="center">
     <img width="1251" alt="진료기록 화면" src="https://github.com/user-attachments/assets/334852e6-6c0c-47cb-b0e8-411580d1b3b0" />
@@ -59,7 +59,15 @@
 
 
 <details>
-  <summary>공지사항 화면</summary>
+  <summary>분석결과 화면</summary>
+
+  <p align="center">
+    <img width="1251" alt="공지사항 화면" src="https://github.com/user-attachments/assets/996c1f2d-5e9e-485c-8a8f-618ac0ef70cf" />
+  </p>
+</details>
+
+<details>
+  <summary>결과 보고서 다운로드</summary>
 
   <p align="center">
     <img width="1251" alt="공지사항 화면" src="https://github.com/user-attachments/assets/996c1f2d-5e9e-485c-8a8f-618ac0ef70cf" />
