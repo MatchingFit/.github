@@ -84,13 +84,20 @@
  
 ---
 
+
+## ⚙️ 인프라 환경
+
+- **사용자**: 이력서 업로드 및 분석 기능, 이력서 분석 결과 및 PDF 다운 이력서 매칭 될 경우 메일 알림
+- **인사담당자**: HR 성향테스트 및 유저 이력서 매칭 기능
+ 
+---
 ## 🏗️ 기술 스택
 
 | 분야 | 기술 |
 |:---|:---|
 | Backend | Spring Boot, JPA, OPENAI, ELASTICSEARCH, KIBANA, PYTHON|
 | Frontend | Next.js, TypeScript |
-| Database | PostgreSQL |
+| Database | PostgreSQL, S3 |
 | DevOps | Docker, NGINX, REDIS |
 | CI/CD | GitHub Actions |
 
@@ -107,20 +114,16 @@
  
  ## Backend
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white)](https://spring.io/projects/spring-security)
 [![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat&logo=spring&logoColor=white)](https://spring.io/projects/spring-data-jpa)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)](https://swagger.io/tools/swagger-ui/)
-[![Lombok](https://img.shields.io/badge/Lombok-ED1C24?style=flat&logo=java&logoColor=white)](https://projectlombok.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-4A4A55?style=flat&logo=openai&logoColor=white)](https://openai.com)
+[![Elasticsearch](https://img.shields.io/badge/Elasticsearch-F7A71D?style=flat&logo=elasticsearch&logoColor=white)](https://www.elastic.co/elasticsearch)
+[![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat&logo=kibana&logoColor=white)](https://www.elastic.co/kibana)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+
  <br/>
 
- ## Real-time Communication
-[![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat&logo=socketdotio&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
-[![Server-Sent Events](https://img.shields.io/badge/SSE-FF4500?style=flat&logo=rss&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
-<br/>
-
  ## Infra
-[![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white)](https://aws.amazon.com/ec2/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)](https://www.nginx.com/)
 [![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat&logo=amazon-s3&logoColor=white)](https://aws.amazon.com/s3/)
