@@ -140,7 +140,7 @@
 ### Backend (Spring Boot)
 ```bash
 # 1. 프로젝트 클론
-git clone https://github.com/Pet-ner/AniDoc.git
+git clone https://github.com/MatchingFit/MatchingFit_BACKEND.git
 cd AniDoc/backend
 
 # 2. 환경변수 설정
