@@ -56,7 +56,7 @@
 <img width="815" height="586" alt="개발환경" src="https://github.com/user-attachments/assets/b412b30b-0c24-4a8d-8782-d1a2c7696f3f" />
 
 - **배포 환경**
-<img width="742" height="655" alt="배포환경" src="https://github.com/user-attachments/assets/380d497d-33de-43a4-a670-4c8b64e33bbd" />
+<img width="1000" height="607" alt="image" src="https://github.com/user-attachments/assets/189a0348-f3e2-455d-b87e-75be9625c250" />
 
 <br/>
 
