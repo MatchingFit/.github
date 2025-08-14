@@ -9,7 +9,7 @@
  | <img src="https://github.com/minseoBae.png" alt="배민서" width="150"> | <img src="https://github.com/Kwon-TaeYun.png" alt="권태윤" width="150"> | <img src="https://github.com/Kim-ms527.png" alt="김명수" width="150"> | <img src="https://github.com/yoonmallang22.png" alt="윤지수" width="150"> |
  | BE | BE | BE | FE |
  | 팀장 | 팀원 | 팀원 | 팀원 |
- | [GitHub](https://github.com/Heun0) | [GitHub](https://github.com/mordor8378) | [GitHub](https://github.com/Kim-ms527) | [GitHub](https://github.com/yoonmallang22) | 
+ | [GitHub](https://github.com/minseoBae) | [GitHub](https://github.com/Kwon-TaeYun) | [GitHub](https://github.com/Kim-ms527) | [GitHub](https://github.com/yoonmallang22) | 
 
 ---
 
