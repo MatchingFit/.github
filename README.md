@@ -88,10 +88,10 @@
 
 | 분야 | 기술 |
 |:---|:---|
-| Backend | Spring Boot, JPA, WebSocket |
+| Backend | Spring Boot, JPA, OPENAI, ELASTICSEARCH, KIBANA, PYTHON|
 | Frontend | Next.js, TypeScript |
-| Database | MySQL |
-| DevOps | Docker, Terraform, AWS (EC2, RDS) |
+| Database | PostgreSQL |
+| DevOps | Docker, NGINX, REDIS |
 | CI/CD | GitHub Actions |
 
 ---
@@ -166,7 +166,7 @@ npm run dev
 ## :open_file_folder: Project Structure
 
 ```markdown
-MatchingFit_BACKEND
+backend
 └── src
     └── main
         └── java
